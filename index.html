@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="Shubh Gupta">Shubh Gupta</h1>
 
-          <p class="title"> Developer</p>
+          <p class="title"> Security Automation & Scripting</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -170,7 +170,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -201,16 +201,14 @@
 
         <section class="about-text">
           <p>
-            About Me
-
-            I'm a passionate Computer Engineering student currently pursuing my B.Tech degree. With a keen interest in technology and its applications, 
-            I've focused on developing my skills in three key areas: <br>
-            <br>            
-            1. Python Programming: I've honed my abilities in Python, allowing me to create efficient and scalable solutions to complex problems. <br>          
-            2. Django Web Framework: I've gained expertise in Django, enabling me to build robust and dynamic web applications.<br>
-            3. Cybersecurity: I'm deeply interested in the critical field of cybersecurity, continuously expanding my knowledge to protect digital assets and information.<br>
+            I work in cybersecurity automation and scripting — building tools that help configure, analyze, or secure systems.
+            <br>I'm especially interested in Python, PowerShell, Linux, and learning how security workflows operate in both offensive and defensive environments.
             <br>
-            As a student, I'm always eager to learn and take on new challenges. I'm excited about the opportunity to apply my skills in real-world scenarios and contribute to innovative projects in the tech industry.
+            <br>
+            I enjoy experimenting with systems, writing scripts to automate repetitive tasks, and exploring ethical hacking concepts through hands-on practice rather than theory.
+            <br>
+            <br>
+            Right now I'm focused on improving my automation tooling, expanding my Linux and PowerShell security workflows, and contributing to projects that solve real security problems.  
           </p>
         </section>
 
@@ -228,14 +226,30 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-terminal.svg" alt="terminal icon" width="40">
+                <img src="./assets/images/icon-terminal.svg" alt="Terminal icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Linux Scripts</h4>
+                <h4 class="h4 service-item-title">Security Automation</h4>
 
                 <p class="service-item-text">
-                  Created a collection of Python scripts designed to automate tasks and enhance productivity within the Linux terminal environment.
+                  Automating security workflows using Python and PowerShell — from recon and reporting to system configuration — to make tasks faster, consistent, and repeatable.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/recon.svg" alt="recon icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Recon & Vulnerability Research</h4>
+
+                <p class="service-item-text">
+                  Exploring reconnaissance techniques, CVE analysis, and scripting-driven workflows to better understand security posture and attack surfaces.
                 </p>
               </div>
 
@@ -248,10 +262,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Development</h4>
+                <h4 class="h4 service-item-title">Windows Automation & PowerShell</h4>
 
                 <p class="service-item-text">
-                  Develops backend systems for web applications using Django, ensuring optimal performance and functionality.
+                  Automating configuration, optimization, and security tasks in Windows environments using PowerShell and scripting workflows.
                 </p>
               </div>
 
@@ -260,31 +274,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-blog.svg" alt="design icon" width="40">
+                <img src="./assets/images/icon-blog.svg" alt="blog icon" width="40">
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Blogs</h4>
 
                 <p class="service-item-text">
-                  Writes engaging and informative blog posts related to cybersecurity.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo-new.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  Hobbyist photographer, capturing moments and scenes that inspire creativity and imagination.
-                </p>
+                  Documenting what I learn — scripting patterns, security concepts, and experiments — through short technical notes and posts.                </p>
               </div>
 
             </li>
@@ -342,10 +339,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="projects" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
@@ -406,8 +403,44 @@
 
           <ul class="project-list">
 
+            <li class="project-item  active" data-filter-item data-category="CVE">
+              <a href="https://github.com/quietcod/CVE.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cve.png" alt="CVE" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CVE</h3>
+
+                <p class="project-category">Common Vulnerabilities and Exposures Mail Automation.</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="PowerShell">
+              <a href="https://github.com/SunriseComputers/PowerShell.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/powershell.png" alt="PowerShell" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PowerShell</h3>
+
+                <p class="project-category">Automation scripts to streamline, optimize, and customize your Windows environment</p>
+ 
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="linux script">
-              <a href="https://github.com/quietcod/Python-Ethical-Hacking.git">
+              <a href="https://github.com/quietcod/PythonPentestToolkit.git">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -417,9 +450,9 @@
                   <img src="./assets/images/linuxscript.png" alt="linix script" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Linux Scripts</h3>
+              <h3 class="project-title">Python Pentest Toolkit</h3>
 
-                <p class="project-category">Linux Terminal Baseed Scripts in Python.</p>
+                <p class="project-category">Security and Penetration Testing Tools in Python with labs.</p>
 
               </a>
             </li>

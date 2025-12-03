@@ -1,0 +1,90 @@
+<svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Eye outline -->
+  <path
+    d="M64 256C112 176 192 128 256 128C320 128 400 176 448 256C400 336 320 384 256 384C192 384 112 336 64 256Z"
+    stroke="url(#reconGradient)"
+    stroke-width="32"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Iris -->
+  <circle
+    cx="256"
+    cy="256"
+    r="64"
+    stroke="url(#reconGradient)"
+    stroke-width="32"
+    fill="none"
+  />
+  <!-- Pupil -->
+  <circle
+    cx="256"
+    cy="256"
+    r="24"
+    fill="#8B5CF6"
+  />
+
+  <!-- Network nodes -->
+  <circle
+    cx="120"
+    cy="120"
+    r="20"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    fill="none"
+  />
+  <circle
+    cx="408"
+    cy="144"
+    r="20"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    fill="none"
+  />
+  <circle
+    cx="432"
+    cy="344"
+    r="20"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    fill="none"
+  />
+
+  <!-- Connecting lines -->
+  <line
+    x1="136"
+    y1="136"
+    x2="200"
+    y2="200"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+  <line
+    x1="392"
+    y1="152"
+    x2="304"
+    y2="216"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+  <line
+    x1="416"
+    y1="328"
+    x2="320"
+    y2="296"
+    stroke="url(#reconGradient)"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+
+  <defs>
+    <linearGradient id="reconGradient" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+  </defs>
+</svg>
