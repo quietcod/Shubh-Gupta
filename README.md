@@ -92,8 +92,5 @@ This project is open source and available under the [MIT License](LICENSE) (repl
 
 Shubh Gupta - [gshubh270@gmail.com](mailto:gshubh270@gmail.com) 
 
-## 💖 Thanks
-
-Thank you for checking out my personal portfolio! I hope you find it informative and inspiring.
 
 This is written by [readme.ai](https://readme-generator-phi.vercel.app/).
