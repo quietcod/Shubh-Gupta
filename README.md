@@ -2,7 +2,7 @@
 
 This repository contains the code for Shubh Gupta's personal portfolio website. It's designed to showcase skills, projects, and experience in a visually appealing and interactive way. The website features a responsive design, a dynamic sidebar, a testimonials section, and a filterable portfolio.
 
-```Visit at - https://quietcod.github.io/Shubh-Gupta/ ```
+```Visit at - [Shubh Gupta](https://quietcod.github.io/Shubh-Gupta/) ```
 
 ## 🌟 Key Features
 
@@ -88,8 +88,7 @@ This project is open source and available under the [MIT License](LICENSE) (repl
 
 ## 📬 Contact
 
-Shubh Gupta - [gshubh270@gmail.com](mailto:gshubh270@gmail.com)
-LinkedIn Profile - 
+Shubh Gupta - [gshubh270@gmail.com](mailto:gshubh270@gmail.com) 
 
 ## 💖 Thanks
 
