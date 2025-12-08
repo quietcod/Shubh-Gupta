@@ -2,7 +2,7 @@
 
 This repository contains the code for Shubh Gupta's personal portfolio website. It's designed to showcase skills, projects, and experience in a visually appealing and interactive way. The website features a responsive design, a dynamic sidebar, a testimonials section, and a filterable portfolio.
 
-```Visit at - [Shubh Gupta](https://quietcod.github.io/Shubh-Gupta/) ```
+Visit at - [Shubh Gupta](https://quietcod.github.io/Shubh-Gupta/)
 
 ## 🌟 Key Features
 
@@ -76,7 +76,9 @@ Once the website is running, you can:
 
 ## 📸 Screenshots
 
-(Screenshots of the portfolio website will be added here.)
+<img width="1015" height="810" alt="{F21640D8-3067-4B97-9CB7-B145DF879DF0}" src="https://github.com/user-attachments/assets/4b19b003-15d8-4cf4-870c-42a26734a3d0" />
+
+<img width="1017" height="602" alt="{0A0515A9-186C-48E1-8884-E0DB2FAF46D0}" src="https://github.com/user-attachments/assets/ac826587-03d5-4a23-a1c4-d2a5bcf7fab2" />
 
 ## 🤝 Contributing
 
